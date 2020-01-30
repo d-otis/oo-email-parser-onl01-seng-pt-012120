@@ -23,7 +23,9 @@ class EmailAddressParser
     # removes duplicates
     final_arr = []
     split_emails.each do |i|
-      binding.pry
+      if !final_arr.include?(i)
+        final_arr << i
+      end
     end
     
   end
