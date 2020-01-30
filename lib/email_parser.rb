@@ -27,6 +27,7 @@ class EmailAddressParser
         final_arr << i
       end
     end
+    final_arr
     
   end
 
