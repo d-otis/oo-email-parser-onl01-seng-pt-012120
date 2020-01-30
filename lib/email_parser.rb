@@ -14,10 +14,17 @@ class EmailAddressParser
   end
   
   def parse
-    # binding.pry
+    # splits emails by "," + " "
     split_emails = @emails.split(Regexp.union([","," "]))
+    
+    # deletes blanks
     split_emails.delete_if {|i| i == ""}
     
+    # removes duplicates
+    final_arr = []
+    split_emails.each do |i|
+      binding.pry
+    end
     
   end
 
