@@ -14,7 +14,7 @@ class EmailAddressParser
   end
   
   def parse
-    split_emails = @emails.split(Regexp.union([","," "]))
+    # split_emails = @emails.split(Regexp.union([","," "]))
   end
 
 end
