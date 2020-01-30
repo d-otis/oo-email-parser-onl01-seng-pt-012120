@@ -11,6 +11,8 @@ class EmailAddressParser
     @emails = emails
   end
   
-  # def parse
+  def parse
+    binding.pry
+  end
 
 end
